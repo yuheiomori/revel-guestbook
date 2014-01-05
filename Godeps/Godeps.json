@@ -1,0 +1,45 @@
+{
+	"ImportPath": "revel-guestbook",
+	"GoVersion": "go1.2",
+	"Packages": [
+		"./app/controllers"
+	],
+	"Deps": [
+		{
+			"ImportPath": "code.google.com/p/go.net/websocket",
+			"Comment": "null-109",
+			"Rev": "24199393660367ac824f6d992610a0d9ed6c3f75"
+		},
+		{
+			"ImportPath": "github.com/coopernurse/gorp",
+			"Comment": "v1.3",
+			"Rev": "d2579ddda55020b778370c79aa0785e0f5d0f2e4"
+		},
+		{
+			"ImportPath": "github.com/go-sql-driver/mysql",
+			"Comment": "go1",
+			"Rev": "9a7aa3606b82e2081a13a008ada88dfdb96c20fd"
+		},
+		{
+			"ImportPath": "github.com/howeyc/fsnotify",
+			"Rev": "5102fde921d31f59c6e45d835aa01f0213aade0f"
+		},
+		{
+			"ImportPath": "github.com/robfig/config",
+			"Rev": "157e551fa6215fe09c6fe93385a9285e94ed2ca1"
+		},
+		{
+			"ImportPath": "github.com/robfig/pathtree",
+			"Rev": "386203cd892f979b0709dfd8b2c496c2b18c8f62"
+		},
+		{
+			"ImportPath": "github.com/robfig/revel",
+			"Comment": "v0.6-64-geed01e2",
+			"Rev": "eed01e20bde3339a6570d6f2e033a6328454a481"
+		},
+		{
+			"ImportPath": "github.com/streadway/simpleuuid",
+			"Rev": "6617b501e485b77e61b98cd533aefff9e258b5a7"
+		}
+	]
+}
